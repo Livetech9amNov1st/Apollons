@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-24T19:35:13 IST" name="Default suite" finished-at="2023-11-24T19:37:02 IST" duration-ms="109335">
+    <groups>
+    </groups>
+    <test started-at="2023-11-24T19:35:13 IST" name="Default test" finished-at="2023-11-24T19:37:02 IST" duration-ms="109335">
+      <class name="testscripts.TestCase3">
+        <test-method is-config="true" signature="filesRead()[pri:0, instance:testscripts.TestCase3@3646a422]" started-at="2023-11-24T19:35:13 IST" name="filesRead" finished-at="2023-11-24T19:35:13 IST" duration-ms="608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filesRead -->
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:testscripts.TestCase3@3646a422]" started-at="2023-11-24T19:35:13 IST" name="startBrowser" finished-at="2023-11-24T19:35:28 IST" depends-on-methods="com.apollons.base.BaseTest.filesRead" duration-ms="14454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="validateLoginTest(java.util.ArrayList)[pri:0, instance:testscripts.TestCase3@3646a422]" started-at="2023-11-24T19:35:29 IST" name="validateLoginTest" data-provider="getData" finished-at="2023-11-24T19:37:01 IST" duration-ms="92097" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[{suprafata U=50, nr=8, Confort=1, compartimentare=Decomandat, nr bai=1, tip parcare=parcare subterana, locuri parcare=1, Title=apartamet 2 camere central, nr camere=2, nr balcoane=1, suprafata C=60, telefon=+40 762626308, price=500, etaj=1, strada=tineretului, Nume=Nicoleta, Prenume=ioana, cartier=Unirii, an constructie=2018, total etaje=8}, {suprafata U=50, nr=8, Confort=1, compartimentare=Semidecomandat, nr bai=1, tip parcare=parcare subterana, locuri parcare=1, Title=apartamet 2 camere central, nr camere=2, nr balcoane=1, suprafata C=60, telefon=+40 765951208, price=800, etaj=1, strada=victoriei, Nume=CRISTIANA, Prenume=Ella , cartier=Unirii, an constructie=2018, total etaje=8}, {suprafata U=50, nr=8, Confort=1, compartimentare=Semidecomandat, nr bai=1, tip parcare=parcare subterana, locuri parcare=1, Title=apartamet 2 camere central, nr camere=2, nr balcoane=1, suprafata C=60, telefon=+40 765951408, price=800, etaj=1, strada=victoriei, Nume=John, Prenume=Ella , cartier=Unirii, an constructie=2018, total etaje=8}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginTest -->
+        <test-method is-config="true" signature="closeReports()[pri:0, instance:testscripts.TestCase3@3646a422]" started-at="2023-11-24T19:37:01 IST" name="closeReports" finished-at="2023-11-24T19:37:02 IST" duration-ms="773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReports -->
+      </class> <!-- testscripts.TestCase3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
